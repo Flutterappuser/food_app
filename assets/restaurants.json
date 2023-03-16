@@ -1,0 +1,63 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "The Cheesecake Factory",
+      "address": "123 Main St",
+      "city": "Los Angeles",
+     
+      "menu": [
+        {
+          "id": 1,
+          "name": "Cheesecake",
+          "description": "A delicious dessert made with cream cheese and a graham cracker crust.",
+          "price": 9.99
+        },
+        {
+          "id": 2,
+          "name": "Chicken Alfredo",
+          "description": "Fettuccine pasta with grilled chicken and creamy Alfredo sauce.",
+          "price": 15.99
+        }
+        
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "username": "John",
+          "rating": 4,
+          "comment": "Great food and service!"
+        },
+        {
+          "id": 2,
+          "username": "Jane",
+          "rating": 2,
+          "comment": "Waited too long for our food."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "McDonald's",
+      "address": "456 Elm St",
+    
+      "menu": [
+        {
+          "id": 1,
+          "name": "Big Mac",
+          "description": "A classic burger with two beef patties, special sauce, lettuce, cheese, pickles, and onions on a sesame seed bun.",
+          "price": 3.99
+        }
+      
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "username": "Mike",
+          "rating": 3,
+          "comment": "Typical fast food, nothing special."
+        }
+     
+      ]
+    }]
+  }
